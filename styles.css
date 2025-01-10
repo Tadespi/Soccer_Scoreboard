@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .scoreboard {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  .team {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .score {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  .timer {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
