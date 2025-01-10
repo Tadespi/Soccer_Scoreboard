@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FF0000">
+  <title>Spanish Super Cup 2025 Final</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .scoreboard {
+      background: #FF0000;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 50px;
+    }
+
+    .team {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .score {
+      font-size: 48px;
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ddd;
+    }
+
+    .timer {
+      margin: 20px 0;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Spanish Super Cup 2025</h1>
+  <div class="scoreboard">
+    <div class="team">Barcelona</div>
+    <div class="score" id="scoreA">0</div>
+    <button onclick="incrementScore('A')">+1</button>
+    <button onclick="decrementScore('A')">-1</button>
+
+    <div class="team">Real Madrid</div>
+    <div class="score" id="scoreB">0</div>
+    <button onclick="incrementScore('B')">+1</button>
+    <button onclick="decrementScore('B')">-1</button>
+
+    <div class="timer" id="timer">00:00</div>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
